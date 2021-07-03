@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueTicket.Domain", "src\BlueTicket.Domain\BlueTicket.Domain.csproj", "{4738A2BD-8D62-4892-B97F-C4230F6312D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlueTicket.Domain", "src\BlueTicket.Domain\BlueTicket.Domain.csproj", "{4738A2BD-8D62-4892-B97F-C4230F6312D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueTicket.Infrastructure", "..\src\BlueTicket.Infrastructure\BlueTicket.Infrastructure.csproj", "{E26AF32E-016E-485F-82C1-BC699456B8BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlueTicket.WebApi", "src\BlueTicket.WebApi\BlueTicket.WebApi.csproj", "{0E735406-BEE8-4F61-B507-6D43B7996091}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueTicket.WebApi", "..\src\BlueTicket.WebApi\BlueTicket.WebApi.csproj", "{E46A8294-95C4-47F5-B288-B5B940B89D20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlueTicket.Infrastructure", "src\BlueTicket.Infrastructure\BlueTicket.Infrastructure.csproj", "{948DC3E2-4018-4980-BAD6-22B7190456FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{4738A2BD-8D62-4892-B97F-C4230F6312D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4738A2BD-8D62-4892-B97F-C4230F6312D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4738A2BD-8D62-4892-B97F-C4230F6312D7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E26AF32E-016E-485F-82C1-BC699456B8BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E26AF32E-016E-485F-82C1-BC699456B8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E26AF32E-016E-485F-82C1-BC699456B8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E26AF32E-016E-485F-82C1-BC699456B8BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E46A8294-95C4-47F5-B288-B5B940B89D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E46A8294-95C4-47F5-B288-B5B940B89D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E46A8294-95C4-47F5-B288-B5B940B89D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E46A8294-95C4-47F5-B288-B5B940B89D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E735406-BEE8-4F61-B507-6D43B7996091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E735406-BEE8-4F61-B507-6D43B7996091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E735406-BEE8-4F61-B507-6D43B7996091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E735406-BEE8-4F61-B507-6D43B7996091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{948DC3E2-4018-4980-BAD6-22B7190456FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948DC3E2-4018-4980-BAD6-22B7190456FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{948DC3E2-4018-4980-BAD6-22B7190456FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{948DC3E2-4018-4980-BAD6-22B7190456FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
