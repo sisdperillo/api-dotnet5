@@ -9,6 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlueTicket.WebApi", "src\Bl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlueTicket.Infrastructure", "src\BlueTicket.Infrastructure\BlueTicket.Infrastructure.csproj", "{948DC3E2-4018-4980-BAD6-22B7190456FB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - WebApi", "1 - WebApi", "{A4D3AC50-B81B-4223-A6A0-A8A9C7DA4672}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{799C58C2-3AF9-4E5D-8BE9-A0A6E5DF9CE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{75F89265-1BCD-46E6-8160-F4C92F95F7EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +36,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4738A2BD-8D62-4892-B97F-C4230F6312D7} = {799C58C2-3AF9-4E5D-8BE9-A0A6E5DF9CE0}
+		{0E735406-BEE8-4F61-B507-6D43B7996091} = {A4D3AC50-B81B-4223-A6A0-A8A9C7DA4672}
+		{948DC3E2-4018-4980-BAD6-22B7190456FB} = {75F89265-1BCD-46E6-8160-F4C92F95F7EF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA961A58-B1DB-4DCC-9AB5-C14AE998A679}
