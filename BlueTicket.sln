@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueTicket.Domain", "src\BlueTicket.Domain\BlueTicket.Domain.csproj", "{4738A2BD-8D62-4892-B97F-C4230F6312D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueTicket.Infrastructure", "..\src\BlueTicket.Infrastructure\BlueTicket.Infrastructure.csproj", "{E26AF32E-016E-485F-82C1-BC699456B8BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueTicket.WebApi", "..\src\BlueTicket.WebApi\BlueTicket.WebApi.csproj", "{E46A8294-95C4-47F5-B288-B5B940B89D20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4738A2BD-8D62-4892-B97F-C4230F6312D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4738A2BD-8D62-4892-B97F-C4230F6312D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4738A2BD-8D62-4892-B97F-C4230F6312D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4738A2BD-8D62-4892-B97F-C4230F6312D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E26AF32E-016E-485F-82C1-BC699456B8BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E26AF32E-016E-485F-82C1-BC699456B8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E26AF32E-016E-485F-82C1-BC699456B8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E26AF32E-016E-485F-82C1-BC699456B8BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E46A8294-95C4-47F5-B288-B5B940B89D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E46A8294-95C4-47F5-B288-B5B940B89D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E46A8294-95C4-47F5-B288-B5B940B89D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E46A8294-95C4-47F5-B288-B5B940B89D20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA961A58-B1DB-4DCC-9AB5-C14AE998A679}
+	EndGlobalSection
+EndGlobal
